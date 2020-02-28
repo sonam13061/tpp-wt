@@ -1,0 +1,22 @@
+{
+    "isFile": false,
+    "name": "d10",
+    "children": [
+        {
+            "isFile": false,
+            "name": "d20",
+            "children": [
+                {
+                    "isFile": true,
+                    "name": "f2.txt",
+                    "newname": "fsztj9lsk753grcm"
+                }
+            ]
+        },
+        {
+            "isFile": true,
+            "name": "f1.txt",
+            "newname": "fsztj9lsk753grco"
+        }
+    ]
+}
