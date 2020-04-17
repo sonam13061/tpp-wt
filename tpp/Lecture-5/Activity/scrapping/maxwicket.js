@@ -21,8 +21,8 @@ function parseHtml(html){
     let maxwickettake=" ";
     let maxwicket=0;
     for(let i=0;i<tablearr.length;i++){
-        let wicket=$($(tablearr[i]).find("td")[5]).html();
-        let bowlername=$(tablearr[i]).find("td a").html();
+        let wicket=$($(tablearr[i]).find("td")[5]).text();
+        let bowlername=$(tablearr[i]).find("td a").text();
         if(wicket>maxwicket){
             maxwicket=wicket;
             maxwickettake=bowlername;
