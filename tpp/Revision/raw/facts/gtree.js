@@ -43,12 +43,48 @@ let root={
             ]
         },
         {
-            data:40,
+            data:"d40",
             children:
             [
                 
             ]
         }
+    ]
+}
+let root2={
+    data:"d10",
+    children:[
+        {
+        data:"d20",
+        children:[
+            {
+                data:"d50",
+                children:[]
+            },
+            {
+                data:"d60",
+                children:[]
+            }
+        ]
+        },
+        {
+        data:"d30",
+        children:[
+            {
+                data:"d70",
+                children:[]
+            },
+            {
+                data:"d80",
+                children:[]
+            }
+        ]
+        },
+        {
+        data:"d40",
+        children:[]
+        }
+
     ]
 }
 function viewgtree(node){
@@ -62,4 +98,4 @@ function viewgtree(node){
     }
 
 }
-viewgtree(root);
+viewgtree(root2);
